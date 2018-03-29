@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <head>
+    <!-- <link href="css/bootstrap.css" type="text/css" rel="stylesheet"> -->
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <form id="player1">
+      <h1>Pig Dice Game</h1>
+      <label for="name1">player one name:</label>
+      <input id="name1" type="text">
+      <button type="submit">SUBMIT</button>
+    </form>
+    <form id="player2">
+      <h1>Pig Dice Game</h1>
+      <label for="name2">player two name:</label>
+      <input id="name2" type="text">
+      <button type="submit">SUBMIT</button>
+    </form>
+    <div class="output-player1">
+      <h2>Player 1: <span class="player1-name"></span></h2>
+      <p>Roll: <span id="player1-roll"></span></p>
+      <p>Turn Score: <span id="player1-turnScore"></span></p>
+      <button id="player1Roll">Rollskie</button>    <button id="player1Hold">Holdskie</button>
+      <h3>Score: <span id="player1-score"></span></h3>
+    </div>
+    <div class="output-player2">
+      <h2>Player 2: <span class="player2-name"></span></h2>
+      <p>Roll: <span id="player2-roll"></span></p>
+      <p>Turn Score: <span id="player2-turnScore"></span></p>
+      <button id="player2Roll">Rollskie</button>    <button id="player2Hold">Holdskie</button>
+      <h3>Score: <span id="player2-score"></span></h3>
+    </div>
+  </body>
+</html>
